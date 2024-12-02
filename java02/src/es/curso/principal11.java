@@ -7,7 +7,7 @@ public class principal11 {
 		String[] lista = new String[] {"hola","que","tal","estas"};
 		for(int i=0;i<lista.length;i++) {
 			
-			System.out.println("Sacame cada letra: "+lista[i]);
+			System.out.println("Sacame cada palabra: "+lista[i]);
 			
 			for(int j=0;j<lista[i].length();j++) {
 				
