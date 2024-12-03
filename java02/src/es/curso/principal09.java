@@ -1,6 +1,6 @@
 package es.curso;
 
-public class principal9 {
+public class principal09 {
 
 	public static void main(String[] args) {
 
