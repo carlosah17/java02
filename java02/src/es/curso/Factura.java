@@ -1,6 +1,6 @@
 package es.curso;
 
-public class factura {
+public class Factura {
 
 	public double importe;
 	

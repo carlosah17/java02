@@ -1,6 +1,6 @@
 package es.curso;
 
-public class rectangulo {
+public class Rectangulo {
 
 	public double lado1;
 	

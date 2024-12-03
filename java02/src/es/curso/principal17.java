@@ -4,7 +4,7 @@ public class principal17 {
 
 	public static void main(String[] args) {
 
-		factura f=new factura();
+		Factura f=new Factura();
 		f.importe=100;
 		System.out.println(f.importe);
 		System.out.println(f.CalcularConIva(f.importe));

@@ -1,6 +1,6 @@
 package es.curso;
 
-public class persona {
+public class Persona {
 
 		int edad;
 		String nombre;

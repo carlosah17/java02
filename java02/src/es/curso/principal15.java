@@ -4,15 +4,15 @@ public class principal15 {
 
 	public static void main(String[] args) {
 
-		persona p1=new persona();
+		Persona p1=new Persona();
 		p1.edad=20;
 		p1.nombre="ceci";
 		
-		persona p2=new persona();
+		Persona p2=new Persona();
 		p2.edad=1;
 		p2.nombre="catalina";
 		
-		persona[] lista=new persona[] {p1,p2};
+		Persona[] lista=new Persona[] {p1,p2};
 		
 		for(int i=0;i<lista.length;i++) {
 			

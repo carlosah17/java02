@@ -1,6 +1,6 @@
 package es.curso;
 
-public class nota {
+public class Nota {
 
 	
 
