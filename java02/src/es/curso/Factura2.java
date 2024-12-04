@@ -3,7 +3,22 @@ package es.curso;
 public class Factura2 {
 
 	private double importe;
+	private double numiva;
 	
+	public Factura2(double importe, double numiva) {
+		super();
+		this.importe = importe;
+		this.numiva = numiva;
+	}
+
+	public double getNumiva() {
+		return numiva;
+	}
+
+	public void setNumiva(double numiva) {
+		this.numiva = numiva;
+	}
+
 	public double getImporte() {
 		return importe;
 	}
@@ -22,11 +37,6 @@ public class Factura2 {
 		
 		return importe*0.21;
 		
-	}
-
-	public Factura2(double importe) {
-		super();
-		this.importe = importe;
 	}
 
 }
