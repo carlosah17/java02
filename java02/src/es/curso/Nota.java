@@ -2,6 +2,22 @@ package es.curso;
 
 public class Nota {
 
-	public double valor;
+	private double valor;
+	
+	public double getValor() {
+		
+		return valor;
+		
+	}
+	
+	public void setValor(double v) {
+		
+		if(v>=1 && v<=10) {
+			
+		valor=v;
+		
+		}
+		
+	}
 
 }
