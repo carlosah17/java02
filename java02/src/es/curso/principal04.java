@@ -6,6 +6,7 @@ public class principal04 {
 		
 		int[] lista = new int[] {4,5,7,2};
 		int aprobados = genteaprobada(lista);
+		System.out.println(aprobados);
 
 	}
 	
