@@ -23,5 +23,15 @@ public class Cuadrado {
 		return lado1;
 	}
 	
+	public double area() {
+		
+		return lado1*lado1;
+		
+	}
+
+	public Cuadrado(double lado1) {
+		super();
+		this.lado1 = lado1;
+	}
 	
 }
