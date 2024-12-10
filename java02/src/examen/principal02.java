@@ -4,7 +4,7 @@ public class principal02 {
 
 	public static void main(String[] args) {
 
-		 Double[] lista = new Double[] {2.0,4.0,7.0,9.0,5.0};
+		 double[] lista = new double[] {2,4,7,9,5};
 		 int i=0;
 		 double suma=0;
 		 while(i<lista.length) {
