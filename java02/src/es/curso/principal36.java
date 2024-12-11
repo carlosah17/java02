@@ -9,8 +9,9 @@ public class principal36 {
 		Turista t1 = new Turista("Carlos");
 		t1.setMaleta1(m1);
 		t1.setMaleta2(m2);
-		System.out.println(t1.pesototal());
+		//System.out.println(t1.pesototal());
 		//System.out.println(t1.pesototal2(m1.getPeso(),m2.getPeso()));
+		System.out.println(t1.pesototal3());
 	
 	}
 

@@ -46,5 +46,15 @@ public class Turista {
 		return peso1+peso2;
 		
 	}
+	
+	public double pesototal3() {
+		double pesototal=0;
+		if(maleta1!=null)
+			pesototal=pesototal+maleta1.getPeso();
+		if(maleta2!=null)
+			pesototal=pesototal+maleta2.getPeso();
+		return pesototal;
+		
+	}
 
 }
