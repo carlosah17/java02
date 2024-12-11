@@ -41,18 +41,35 @@ public class Turista {
 		
 	}
 	
-	public double pesototal2(double peso1, double peso2) {
+	public double pesototal(double peso1, double peso2) {
 		
 		return peso1+peso2;
 		
 	}
 	
-	public double pesototal3() {
+	public double pesototal2() {
 		double pesototal=0;
 		if(maleta1!=null)
 			pesototal=pesototal+maleta1.getPeso();
 		if(maleta2!=null)
 			pesototal=pesototal+maleta2.getPeso();
+		return pesototal;
+		
+	}
+	
+	public double pesototal2(double sobrepeso) {
+
+		return pesototal()+sobrepeso;
+		
+	}
+	
+	public double pesototal2(String tipocarcasa) {
+		double pesototal=pesototal();
+		if(tipocarcasa.equals("ligera")) {
+			pesototal=pesototal+2;
+		}else {
+			pesototal=pesototal+4;
+		}
 		return pesototal;
 		
 	}

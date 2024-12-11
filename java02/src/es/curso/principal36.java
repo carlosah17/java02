@@ -10,8 +10,10 @@ public class principal36 {
 		t1.setMaleta1(m1);
 		t1.setMaleta2(m2);
 		//System.out.println(t1.pesototal());
-		//System.out.println(t1.pesototal2(m1.getPeso(),m2.getPeso()));
-		System.out.println(t1.pesototal3());
+		//System.out.println(t1.pesototal1(m1.getPeso(),m2.getPeso()));
+		System.out.println(t1.pesototal2());
+		System.out.println(t1.pesototal2(1));
+		System.out.println(t1.pesototal2("ligera"));
 	
 	}
 
