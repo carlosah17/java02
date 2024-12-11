@@ -1,0 +1,17 @@
+package es.curso;
+
+public class principal36 {
+
+	public static void main(String[] args) {
+
+		Maletas m1 = new Maletas("ibm",15);
+		Maletas m2 = new Maletas("lg",13);
+		Turista t1 = new Turista("Carlos");
+		t1.setMaleta1(m1);
+		t1.setMaleta2(m2);
+		System.out.println(t1.pesototal());
+		//System.out.println(t1.pesototal2(m1.getPeso(),m2.getPeso()));
+	
+	}
+
+}
