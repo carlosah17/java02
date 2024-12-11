@@ -2,35 +2,52 @@ package examen;
 
 public class Ordenador {
 
-	public boolean encendido;
+	private boolean encendido;
 	
+	public boolean estaEncendido() {
+		
+		return encendido;
+		
+	}
+	
+	public boolean getEncendido() {
+		return encendido;
+	}
+
+	public void setEncendido(boolean encendido) {
+		this.encendido = encendido;
+	}
+
 	public Ordenador(boolean encendido) {
 		super();
 		this.encendido = encendido;
 	}
 
-	public boolean encenderlo() {
+	public void encenderlo() {
 		
-		return encendido=true;
-
-		
-	}
-	
-	public boolean apagarlo() {
-		
-		return encendido=false;
+		if (!encendido) {
+			encendido=true;
+		}
 		
 	}
 	
-	public boolean estaencendido() {
+	public void apagarlo() {
+		
+		if (encendido) {
+			encendido=false;
+		}
+		
+	}
+	
+	public void estaencendido() {
 		
 		if (encendido==true) {
 			System.out.println("Esta encendido.");
-			return true;
+			
 			
 		}else {
 			System.out.println("Esta apagado.");
-			return false;
+			
 		}
 
 		
